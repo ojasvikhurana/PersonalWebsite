@@ -1,0 +1,54 @@
+body{
+    background-color: #FFBF00;
+}
+.sec{
+   margin-top:20vh;
+}
+#right{
+    float:left;
+    width:20%;
+    margin-left: 20vh;
+}
+
+#me{
+    margin: 0 auto;
+    width: 100vh;
+    height:70vh;    
+    border: solid 2px black;
+}
+
+.fitem{
+    float:left;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pro{
+    padding: 2vh;
+}
+
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1vh;
+    font-size: 1vw;
+}
+
+ul{
+   list-style: none; 
+}
+
+li a{
+    color: black;
+}
+
+li a:hover{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+li a img{
+   height: 1vw;
+   padding-right: 1vw;
+}
