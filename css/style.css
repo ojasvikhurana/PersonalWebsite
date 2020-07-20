@@ -1,0 +1,43 @@
+body{
+    background-color: #FFBF00;
+}
+
+#right{
+    position: relative;
+}
+#right img{
+   right: 0rem;
+   position: absolute;
+   top: 10rem;
+}
+
+#left{
+    position: relative;
+}
+
+
+h2{
+    font-family: 'Open Sans' ,sans-serif;
+}
+
+h1{
+    font-size: 5vw;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.intro{
+    position:absolute;
+    top:30%;
+    left:10%;    
+}
+
+
+
+.sec{
+    display:flex;
+}
+
+.rl{
+    height:80vh;
+    width: 100vh;
+}
