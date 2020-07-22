@@ -1,218 +1,73 @@
-body{
-    background-color: #FFBF00;
+html {
+  font-size: calc(0.5em + 0.5vw);
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
 }
 
-
-
-@media (max-width: 600px) {
-    .sec{
-        margin-top:10vh;
-     }
-     #right{
-         display: none;
-     }
-     
-     #me{
-         margin:10vh; 
-         width: 50vh;
-         height:70vh;    
-         border: solid 2px black;
-     }
-     
-     .fitem{
-         float:left;
-     }
-     
-     h2{
-         font-family: Georgia, 'Times New Roman', Times, serif;
-     }
-     
-     .pro{
-         padding: 2vh;
-     }
-     
-     li{
-         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-         padding: 1vh;
-     }
-     
-     ul{
-        list-style: none; 
-     }
-     
-     li a{
-         color: black;
-     }
-     
-     li a:hover{
-         color:black;
-         text-decoration: none;
-         font-weight: bold;
-     }
-     li a img{
-        height: 3vw;
-        padding-right: 1vw;
-     }
-    
- }
-
-@media  (min-width: 600px) {
-    .sec{
-        margin-top:10vh;
-     }
-     #right{
-         float:left;  
-         width:4vh;       
-     }
-     
-     #me{
-         margin: 3vh 3vh 3vh 20vh; 
-         width: 50vh;
-         height:70vh;    
-         border: solid 2px black;
-     }
-     
-     .fitem{
-         float:left;
-     }
-     
-     h2{
-         font-family: Georgia, 'Times New Roman', Times, serif;
-     }
-     
-     .pro{
-         padding: 2vh;
-     }
-     
-     li{
-         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-         padding: 1vh;
-     }
-     
-     ul{
-        list-style: none; 
-     }
-     
-     li a{
-         color: black;
-     }
-     
-     li a:hover{
-         color:black;
-         text-decoration: none;
-         font-weight: bold;
-     }
-     li a img{
-        height: 3vw;
-        padding-right: 1vw;
-     }
-    
- }
-
-
- @media (min-width: 768px) {
-    .sec{
-        margin-top:10vh;
-     }
-     #right{
-         float:left;
-         width:1vh;
-
-     }
-     
-     #me{
-         margin: 3vh 3vh 3vh 25vh; 
-         width: 70vh;
-         height:70vh;    
-         border: solid 2px black;
-     }
-     
-     .fitem{
-         float:left;
-     }
-     
-     h2{
-         font-family: Georgia, 'Times New Roman', Times, serif;
-     }
-     
-     .pro{
-         padding: 2vh;
-     }
-     
-     li{
-         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-         padding: 1vh;
-     }
-     
-     ul{
-        list-style: none; 
-     }
-     
-     li a{
-         color: black;
-     }
-     
-     li a:hover{
-         color:black;
-         text-decoration: none;
-         font-weight: bold;
-     }
-     li a img{
-        height: 2vw;
-        padding-right: 1vw;
-     }
+body {
+  background-color: #ffbf00;
 }
 
+.sec {
+  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+}
+#right {
+  position: fixed;
+  bottom: 0px;
+}
 
- @media (min-width: 992px) {
-    .sec{
-        margin-top:20vh;
-     }
-     #right{
-         float:left;
-         width:20%;
-         margin-left: 20vh;
-     }
-     
-     #me{
-         margin: 0 auto;
-         width: 80vh;
-         height:70vh;    
-         border: solid 2px black;
-     }
-     
-     .fitem{
-         float:left;
-     }
-     
-     h2{
-         font-family: Georgia, 'Times New Roman', Times, serif;
-     }
-     
-     .pro{
-         padding: 2vh;
-     }
-     
-     li{
-         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-         padding: 1vh;
-     }
-     
-     ul{
-        list-style: none; 
-     }
-     
-     li a{
-         color: black;
-     }
-     
-     li a:hover{
-         color:black;
-         text-decoration: none;
-         font-weight: bold;
-     }
-     li a img{
-        height: 2vw;
-        padding-right: 1vw;
-     }
+#me {
+  margin: 0 auto;
+  width: 80vh;
+  
+  min-height:100px;
+  border: solid 2px black;
+}
+
+.fitem {
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.pro {
+  padding: 2vh;
+}
+
+li {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 1vh;
+}
+
+ul {
+  list-style: none;
+}
+
+li a {
+  color: black;
+}
+
+li a:hover {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+li a img {
+  height: 2vw;
+  padding-right: 1vw;
+}
+
+@media screen and (max-width: 680px) {
+  img {
+    display: none;
+  }
 }
