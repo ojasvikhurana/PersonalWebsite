@@ -40,7 +40,7 @@ body {
 
 
 @media screen and (max-width: 680px) {
-    img {
+    #right {
       display: none;
     }
 }
