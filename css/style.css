@@ -1,44 +1,41 @@
+html {
+    font-size: calc(0.5em + 0.5vw);
+}
+h2 {
+    font-size: 1.5em;
+    font-family: 'Open Sans' ,sans-serif;
+}
+#name{
+    font-size: 5em;
+    font-family: 'Permanent Marker', cursive;
+}
 body{
     background-color: #FFBF00;
 }
-
 #right{
-    position: relative;
+    display:flex;
+    justify-content: end;
 }
 #right img{
-   right: 0rem;
-   position: absolute;
-   top: 10rem;
+   margin:auto;  
+   max-width:100%;
+   height:auto;
 }
-
 #left{
-    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
-
-
-
-h2{
-    font-family: 'Open Sans' ,sans-serif;
-    font-size:2vw;
-}
-
-h1{
-    font-size: 5vw;
-    font-family: 'Permanent Marker', cursive;
-}
-
 .intro{
-    position:absolute;
-    top:30%;
-    left:10%;    
+    text-align: left;
 }
-
-
-
 .sec{
     display:flex;
+    justify-content: center;
+    min-height: 300px;
+    margin: 0 auto;
+    align-items: center;
 }
-
 .rl{
     height:80vh;
     width: 100vh;
