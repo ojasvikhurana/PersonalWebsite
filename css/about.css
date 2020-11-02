@@ -17,7 +17,15 @@ body {
     display: flex;
     justify-content: center;
 }
+li{
+  padding: 1vh;
+}
 
+li a:hover {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
 #right {
     position: fixed;
     bottom: 0px;
@@ -39,7 +47,7 @@ body {
 }
 
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 880px) {
     #right {
       display: none;
     }
